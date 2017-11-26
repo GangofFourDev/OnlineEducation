@@ -1,0 +1,4 @@
+从网盘下载thirdPart.7z，解压到onlineEditor目录下面放置一个thirdPart目录
+使用vs2015编译editor.sln即可
+1、WebrtcSDK是webrtc封装的中间层
+2、editor是QT开发的在线教育软件
