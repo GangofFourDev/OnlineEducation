@@ -1,0 +1,4 @@
+LIBRARY "ScsNetwork"
+EXPORTS
+GetScsNetwork    @1	NONAME
+
