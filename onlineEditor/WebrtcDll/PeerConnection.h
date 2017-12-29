@@ -55,7 +55,6 @@
 #include "webrtc/media/base/screencastid.h"
 #include "webrtc/media/base/videocapturerfactory.h"
 
-
 #include "webrtc\modules\audio_device\include\audio_device.h"
 #include "webrtc\media\engine\webrtcvideocapturer.h"
 
@@ -63,7 +62,7 @@
 
 using namespace webrtc;
 
-class TEXPORT PeerConnection //: public webrtc::PeerConnectionObserver, public webrtc::CreateSessionDescriptionObserver
+class PeerConnection //: public webrtc::PeerConnectionObserver, public webrtc::CreateSessionDescriptionObserver
 {
 	PeerConnection();
 

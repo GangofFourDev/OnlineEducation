@@ -98,9 +98,12 @@
   <ItemGroup>
     <ClInclude Include="global.h" />
     <ClInclude Include="PeerConnection.h" />
+    <ClInclude Include="VideoRenderer.h" />
+    <ClInclude Include="WebrtcDllImpl.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PeerConnection.cc" />
+    <ClCompile Include="VideoRenderer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
